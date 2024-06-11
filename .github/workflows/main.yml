@@ -1,0 +1,15 @@
+name: My-GitHub
+
+on: 
+  push:
+    branches: 
+      -master
+
+
+jobs: 
+  Testing:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Print Hello
+       run : echo "Hello World from Testing job"     
+      
